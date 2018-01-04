@@ -7,6 +7,9 @@ a{
 .selected{
   color: #39c7f4;
 }
+h1{
+  font-size: 1em;
+}
 h1,h3{
   font-family: 'Kanit', sans-serif;
   color: white;
@@ -72,14 +75,13 @@ nav a:hover{
 section{
   margin: 0 auto;
   padding: 0;
-  width: 760px;
 }
 section img{
   margin: 0 auto;
   margin-top: 15px;
   padding: 0;
   text-align: center;
-  max-width: 760px;
+  max-width: 100%;
 }
 section h1{
   margin: 0 auto;

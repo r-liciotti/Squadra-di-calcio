@@ -1,11 +1,21 @@
+/* Tablet */
+@media screen and (min-width: 320px) {
+h1{
+  font-size: 0.8em;
+}
+h2{
+  font-size: 1em;
+}
 
 /* Tablet */
 @media screen and (min-width: 480px) {
-
+h1{
+  font-size: 1em;
+}
 
 }
 
 /* Desktop */
 @media screen and (min-width: 660px){
-  
+
 }
