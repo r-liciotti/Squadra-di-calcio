@@ -15,7 +15,7 @@
 </head>
 
 <body>
-  <header>
+  <header class="clearfix">
     <a href="" id="logo">
       <h1>Albinoleffe</h1>
     </a>
@@ -23,17 +23,20 @@
 
     <nav>
       <ul>
-        <li><a href="index.html" class="selected">Home</a></li>
-        <li><a href="giocatori.html">Giocatori</a></li>
-        <li><a href="allenatori.html">Allenatori</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#giocatori">Giocatori</a></li>
+        <li><a href="#allenatori">Allenatori</a></li>
       </ul>
     </nav>
   </header>
+  <div class="banner" id="home">
+  </div>
   <!-- Wrapper  -->
-  <div id="wrapper">
-    <section>
+
+  <div class="wrapper clearfix">
+    <section id="descrizione">
       <h1>Descrizione della squadra</h1>
-      <img src="img/squadra.JPG" alt="Squadra Albinoleffe">
+
       <h3>Quando per fare spelling usavano Noi, L' Albinoleffe!</h3>
 
       <div class="description">
@@ -43,11 +46,79 @@
           della tradizione sportiva italiana secondo i criteri della FIGC.</p>
       </div>
     </section>
-
-    <footer>
-      <p>&copy; 2017 Riccardo Liciotti</p>
-    </footer>
   </div>
+
+  <div class="container">
+  <div class="wrapper clearfix">
+    <section id="giocatori">
+      <p>Squadra Albinoleffe anno 2018</p>
+      <ul class="lista">
+        <li class="profilo_giocatore"><a>Portiere</a>
+          <div>Simone Cortinovis 1</div>
+        </li>
+
+        <li class="profilo_giocatore dif"><a>Difensore</a>
+          <div>Marco Cortoneo 21</div>
+        </li>
+        <li class="profilo_giocatore dif"><a>Difensore</a>
+          <div>Fabio Gavazzi 4 </div>
+        </li>
+        <li class="profilo_giocatore dif"><a>Difensore</a>
+          <div>Vasilica Gusu 6</div>
+        </li>
+        <li class="profilo_giocatore dif"><a>Difensore</a>
+          <div>Edoardo Scrosta 2</div>
+        </li>
+
+        <li class="profilo_giocatore centro"><a>Centrocampista</a>
+          <div>Francesco Agnello 23</div>
+        </li>
+        <li class="profilo_giocatore centro"><a>Centrocampista</a>
+          <div>Francesco Gelli 20</div>
+        </li>
+        <li class="profilo_giocatore centro"><a>Centrocampista</a>
+          <div>Juri Gonzinetti 27</div>
+        </li>
+
+        <li class="profilo_giocatore att"><a>Attacante</a>
+          <div>Matteo Golombi 9</div>
+        </li>
+        <li class="profilo_giocatore att"><a>Attacante</a>
+          <div>Giuseppe Sibilli 10</div>
+        </li>
+        <li class="profilo_giocatore att"><a>Attacante</a>
+          <div>Mario Ravasio 11</div>
+        </li>
+      </ul>
+    </section>
+    </div>
+  </div>
+
+  <div class="wrapper clearfix" id="allenatori">
+    <section>
+      <img src="img/allenatore.png" alt="">
+      <h2>Allenatore</h2>
+      <h1>Massimiliano Albini</h1>
+      <h3>Descrizione</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      <h4>Ex Allenatori</h4>
+      <ul class="lista">
+        <li class="profilo_allenatore"><a>Allenatore 1</a></li>
+        <li class="profilo_allenatore"><a>Allenatore 2</a></li>
+        <li class="profilo_allenatore"><a>Allenatore 3</a></li>
+        <li class="profilo_allenatore"><a>Allenatore 4</a></li>
+        <li class="profilo_allenatore"><a>Allenatore 5</a></li>
+      </ul>
+    </section>
+  </div>
+
+
+  <footer>
+    <p>&copy; 2017 Riccardo Liciotti</p>
+  </footer>
+
 
 
 </body>
